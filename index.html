@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Generator By - Dewang Seth</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="font-awesome.css" />
+  </head>
+
+  <body>
+    <span class="mar" style="display: none"></span>
+    <span class="car" style="display: none"></span>
+    <div class="head">
+      <h1>Resume Generator</h1>
+      <p>By Dewang Seth</p>
+    </div>
+    <div class="indicator">
+      <div class="one">
+        <span>
+          <p class="a">1</p>
+        </span>
+        <img src="correct.png" alt="" class="pol" />
+        <div class="line"></div>
+        <p>Personal</p>
+      </div>
+      <div class="two">
+        <span>
+          <p class="b">2</p>
+        </span>
+        <img src="correct.png" alt="" class="kol" />
+        <div class="line"></div>
+        <p>Professional</p>
+      </div>
+      <div class="three">
+        <span>
+          <p class="c">3</p>
+        </span>
+        <img src="correct.png" alt="" class="bol" />
+        <p>Image</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="personal">
+        <h1>Personal Information</h1>
+        <div class="form__div">
+          <input
+            type="text"
+            class="form__input"
+            placeholder=" "
+            required="required"
+          />
+          <label for="" class="form__label">Name</label>
+        </div>
+        <div class="form__div">
+          <input
+            type="number"
+            class="form__input"
+            placeholder=" "
+            required="required"
+          />
+          <label for="" class="form__label">Phone</label>
+        </div>
+        <div class="form__div">
+          <input
+            type="text"
+            class="form__input"
+            placeholder=" "
+            required="required"
+          />
+          <label for="" class="form__label">Email</label>
+        </div>
+        <div class="text-div">
+          <label for="kuch">Your Address</label>
+          <textarea
+            name="kuch"
+            class="text"
+            cols="30"
+            rows="5"
+            placeholder="Enter Here"
+            required="required"
+          ></textarea>
+        </div>
+        <div class="alag">
+          <p>Important Links</p>
+          <div class="form__div">
+            <input
+              type="text"
+              class="form__input"
+              placeholder=" "
+              required="required"
+            />
+            <label for="" class="form__label">Facebook</label>
+          </div>
+        </div>
+        <div class="form__div">
+          <input
+            type="text"
+            class="form__input"
+            placeholder=" "
+            required="required"
+          />
+          <label for="" class="form__label">Instagram</label>
+        </div>
+        <div class="form__div">
+          <input
+            type="text"
+            class="form__input"
+            placeholder=" "
+            required="required"
+          />
+          <label for="" class="form__label">Linkedin</label>
+        </div>
+        <button class="btn next">Next</button>
+      </div>
+      <div class="professional">
+        <h1>Professional Information</h1>
+        <div class="text-div fuck">
+          <label for="kuch">Objective</label>
+          <textarea
+            name="kuch"
+            class="text"
+            cols="30"
+            rows="5"
+            placeholder="Enter Here"
+            required="required"
+          ></textarea>
+        </div>
+        <div class="text-div fuck it">
+          <label for="kuch">Work Experience</label>
+          <textarea
+            name="kuch"
+            class="text"
+            class="static"
+            cols="30"
+            rows="5"
+            placeholder="Enter Here"
+            required="required"
+          ></textarea>
+          <button class="btn add">Add</button>
+        </div>
+        <div class="text-div fuck at">
+          <label for="kuch">Academic Qualification</label>
+          <textarea
+            name="kuch"
+            class="text nk"
+            cols="30"
+            rows="5"
+            placeholder="Enter Here"
+            required="required"
+          ></textarea>
+          <button class="btn lav">Add</button>
+        </div>
+
+        <button class="btn prev">Previous</button>
+        <button class="btn next">Next</button>
+      </div>
+      <div class="drag-area">
+        <h1 class="hatke">Upload Profile Picture Here</h1>
+        <button>Browse File</button>
+        <input type="file" hidden />
+      </div>
+      <div class="but">
+        <button class="btn skip">Skip</button>
+        <button class="btn prev chu">Previous</button>
+        <button class="btn fhu">Generate CV</button>
+      </div>
+    </div>
+    <div class="loader">
+      <div class="sk-chase">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+      </div>
+      <h1 class="lo">Generating CV / Resume</h1>
+    </div>
+    <div class="dead">
+      <div class="cv">
+        <div class="left">
+          <div class="profile">
+            <img src="empty-profile.png" alt="" class="photo" />
+          </div>
+          <p class="namze fame">
+            <i class="fas fa-user"></i> Dewang mitesh Seth
+          </p>
+          <p class="number fame">
+            <i class="fas fa-phone" style="transform: rotate(90deg)"></i>
+            860072543
+          </p>
+          <p class="address fame">
+            <i class="fas fa-map-marker-alt"></i> ganesh colony ramkrupa
+            appartment
+          </p>
+          <p class="email fame">
+            <i class="fas fa-envelope"></i> dewangseth.com@gmail.com
+          </p>
+          <div class="icons">
+            <a href="#" target="_blank" class="social">
+              <i class="fab fa-facebook"></i> Facebook</a
+            >
+            <a href="#" target="_blank" class="social">
+              <i class="fab fa-instagram"></i> Instagram</a
+            >
+            <a href="#" target="_blank" class="social">
+              <i class="fab fa-linkedin"></i> Linkdein</a
+            >
+            <i class="fas fa-ribbon fa-2x khu"></i>
+          </div>
+        </div>
+        <div class="right">
+          <h1 class="fame">Dewang mitesh seth</h1>
+          <div class="obj">
+            <div class="ones">
+              <h1>Objective</h1>
+            </div>
+            <hr />
+            <p class="bhi">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              commodi, error reprehenderit autem blanditiis fuga itaque dicta
+              aspernatur illo accusamus nemo aliquid unde facere veritatis neque
+              temporibus et optio eius eos architecto. Odit tempora rerum quis,
+              labore sint, provident voluptatem accusantium perferendis, sequi
+              architecto corrupti officia pariatur? Pariatur animi fugit sunt
+              fugiat odit, architecto beatae quod maiores cum omnis ipsam
+              inventore, magni rem corrupti adipisci ipsum eos error maxime nam,
+              veritatis velit illo non placeat ipsa? Praesentium nihil
+              temporibus repellat vero hic facilis ducimus placeat eaque veniam
+              asperiores, quia, facere consequatur fuga esse, numquam? Suscipit
+              voluptatibus nostrum cum nesciunt, quis..
+            </p>
+          </div>
+          <div class="we">
+            <h1>Work Experience</h1>
+            <hr />
+            <ul class="tuka">
+              <li class="luck">Fuck</li>
+              <span class="lk"></span>
+            </ul>
+          </div>
+          <div class="demic">
+            <h1>Academic Qualification</h1>
+            <hr />
+            <ul class="buka">
+              <li class="duck">firt</li>
+              <span class="dk"></span>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="all.js"></script>
+  </body>
+</html>
